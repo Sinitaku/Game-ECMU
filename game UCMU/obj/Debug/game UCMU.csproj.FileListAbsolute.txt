@@ -1,0 +1,10 @@
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\bin\Debug\game UCMU.exe.config
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\bin\Debug\game UCMU.exe
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\bin\Debug\game UCMU.pdb
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.csprojAssemblyReference.cache
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game_UCMU.Form1.resources
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game_UCMU.Properties.Resources.resources
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.csproj.GenerateResource.cache
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.csproj.CoreCompileInputs.cache
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.exe
+C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.pdb
