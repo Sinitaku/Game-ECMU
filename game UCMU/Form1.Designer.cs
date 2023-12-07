@@ -90,7 +90,7 @@
             this.Controls.Add(this.lblInfoStrt);
             this.Controls.Add(this.lblGameName);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Welcome";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -107,7 +107,7 @@
             this.Controls.Add(this.lblEldhart);
             this.Controls.Add(this.lblGameName2);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Characters";
             this.ResumeLayout(false);
             this.PerformLayout();
 

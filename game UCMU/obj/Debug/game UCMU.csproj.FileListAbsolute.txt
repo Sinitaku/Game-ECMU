@@ -8,3 +8,16 @@ C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.csproj.Ge
 C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.csproj.CoreCompileInputs.cache
 C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.exe
 C:\Users\s3tasi02\source\repos\game UCMU\game UCMU\obj\Debug\game UCMU.pdb
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\bin\Debug\game UCMU.exe.config
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\bin\Debug\game UCMU.exe
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\bin\Debug\game UCMU.pdb
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game UCMU.csproj.AssemblyReference.cache
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form1.resources
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form2.resources
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form3.resources
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form4.resources
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Properties.Resources.resources
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game UCMU.csproj.GenerateResource.cache
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game UCMU.csproj.CoreCompileInputs.cache
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game UCMU.exe
+C:\Users\s3tasi02\source\repos\Game-ECMU\game UCMU\obj\Debug\game UCMU.pdb
