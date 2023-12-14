@@ -33,6 +33,7 @@
             this.lblSeraphina = new System.Windows.Forms.Label();
             this.lblThalia = new System.Windows.Forms.Label();
             this.lblDorian = new System.Windows.Forms.Label();
+            this.btnNext2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblGameName2
@@ -95,12 +96,23 @@
             this.lblDorian.Text = "Dorian\r\nDorian is shy blackhaired male. He willprotect his friends without hesita" +
     "tion and usually he doesn\'t like     \r\nbeing the hero. His power is earth.";
             // 
+            // btnNext2
+            // 
+            this.btnNext2.BackColor = System.Drawing.Color.Snow;
+            this.btnNext2.Location = new System.Drawing.Point(651, 399);
+            this.btnNext2.Name = "btnNext2";
+            this.btnNext2.Size = new System.Drawing.Size(118, 39);
+            this.btnNext2.TabIndex = 5;
+            this.btnNext2.Text = "Next";
+            this.btnNext2.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNext2);
             this.Controls.Add(this.lblDorian);
             this.Controls.Add(this.lblThalia);
             this.Controls.Add(this.lblSeraphina);
@@ -120,5 +132,6 @@
         private System.Windows.Forms.Label lblSeraphina;
         private System.Windows.Forms.Label lblThalia;
         private System.Windows.Forms.Label lblDorian;
+        private System.Windows.Forms.Button btnNext2;
     }
 }

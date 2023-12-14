@@ -40,7 +40,7 @@
             // 
             this.lblGameName5.AutoSize = true;
             this.lblGameName5.BackColor = System.Drawing.Color.Snow;
-            this.lblGameName5.Location = new System.Drawing.Point(204, 53);
+            this.lblGameName5.Location = new System.Drawing.Point(222, 51);
             this.lblGameName5.Name = "lblGameName5";
             this.lblGameName5.Size = new System.Drawing.Size(322, 13);
             this.lblGameName5.TabIndex = 0;
@@ -49,9 +49,9 @@
             // btnTeamElTha
             // 
             this.btnTeamElTha.BackColor = System.Drawing.Color.Snow;
-            this.btnTeamElTha.Location = new System.Drawing.Point(103, 334);
+            this.btnTeamElTha.Location = new System.Drawing.Point(130, 347);
             this.btnTeamElTha.Name = "btnTeamElTha";
-            this.btnTeamElTha.Size = new System.Drawing.Size(126, 62);
+            this.btnTeamElTha.Size = new System.Drawing.Size(149, 49);
             this.btnTeamElTha.TabIndex = 1;
             this.btnTeamElTha.Text = "Team Eldhart and Thalia";
             this.btnTeamElTha.UseVisualStyleBackColor = false;
@@ -59,9 +59,9 @@
             // btnTeamSerDor
             // 
             this.btnTeamSerDor.BackColor = System.Drawing.Color.Snow;
-            this.btnTeamSerDor.Location = new System.Drawing.Point(477, 325);
+            this.btnTeamSerDor.Location = new System.Drawing.Point(477, 347);
             this.btnTeamSerDor.Name = "btnTeamSerDor";
-            this.btnTeamSerDor.Size = new System.Drawing.Size(151, 71);
+            this.btnTeamSerDor.Size = new System.Drawing.Size(151, 49);
             this.btnTeamSerDor.TabIndex = 2;
             this.btnTeamSerDor.Text = "Team Seraphina and Dorian";
             this.btnTeamSerDor.UseVisualStyleBackColor = false;
@@ -70,7 +70,7 @@
             // 
             this.lblElTha.AutoSize = true;
             this.lblElTha.BackColor = System.Drawing.Color.Snow;
-            this.lblElTha.Location = new System.Drawing.Point(59, 133);
+            this.lblElTha.Location = new System.Drawing.Point(150, 170);
             this.lblElTha.Name = "lblElTha";
             this.lblElTha.Size = new System.Drawing.Size(74, 13);
             this.lblElTha.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             this.lblSeDo.AutoSize = true;
             this.lblSeDo.BackColor = System.Drawing.Color.Snow;
-            this.lblSeDo.Location = new System.Drawing.Point(447, 133);
+            this.lblSeDo.Location = new System.Drawing.Point(537, 170);
             this.lblSeDo.Name = "lblSeDo";
             this.lblSeDo.Size = new System.Drawing.Size(74, 13);
             this.lblSeDo.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             this.lblChooseTeam.AutoSize = true;
             this.lblChooseTeam.BackColor = System.Drawing.Color.Snow;
-            this.lblChooseTeam.Location = new System.Drawing.Point(217, 206);
+            this.lblChooseTeam.Location = new System.Drawing.Point(330, 256);
             this.lblChooseTeam.Name = "lblChooseTeam";
             this.lblChooseTeam.Size = new System.Drawing.Size(95, 13);
             this.lblChooseTeam.TabIndex = 5;

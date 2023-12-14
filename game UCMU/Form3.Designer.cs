@@ -67,9 +67,9 @@
             // 
             this.btnFire.BackColor = System.Drawing.Color.Snow;
             this.btnFire.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnFire.Location = new System.Drawing.Point(433, 310);
+            this.btnFire.Location = new System.Drawing.Point(437, 321);
             this.btnFire.Name = "btnFire";
-            this.btnFire.Size = new System.Drawing.Size(281, 48);
+            this.btnFire.Size = new System.Drawing.Size(277, 37);
             this.btnFire.TabIndex = 3;
             this.btnFire.Text = "Fire";
             this.btnFire.UseVisualStyleBackColor = false;

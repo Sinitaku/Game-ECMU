@@ -58,7 +58,7 @@
             // btn100pt
             // 
             this.btn100pt.BackColor = System.Drawing.Color.Snow;
-            this.btn100pt.Location = new System.Drawing.Point(252, 255);
+            this.btn100pt.Location = new System.Drawing.Point(304, 255);
             this.btn100pt.Name = "btn100pt";
             this.btn100pt.Size = new System.Drawing.Size(124, 59);
             this.btn100pt.TabIndex = 2;
@@ -69,7 +69,7 @@
             // btn150pt
             // 
             this.btn150pt.BackColor = System.Drawing.Color.Snow;
-            this.btn150pt.Location = new System.Drawing.Point(426, 255);
+            this.btn150pt.Location = new System.Drawing.Point(528, 255);
             this.btn150pt.Name = "btn150pt";
             this.btn150pt.Size = new System.Drawing.Size(121, 59);
             this.btn150pt.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             this.lblTextChooseMnstr.AutoSize = true;
             this.lblTextChooseMnstr.BackColor = System.Drawing.Color.Snow;
-            this.lblTextChooseMnstr.Location = new System.Drawing.Point(193, 133);
+            this.lblTextChooseMnstr.Location = new System.Drawing.Point(218, 148);
             this.lblTextChooseMnstr.Name = "lblTextChooseMnstr";
             this.lblTextChooseMnstr.Size = new System.Drawing.Size(282, 13);
             this.lblTextChooseMnstr.TabIndex = 4;
