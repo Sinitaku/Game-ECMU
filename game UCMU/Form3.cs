@@ -21,5 +21,17 @@ namespace game_UCMU
         {
 
         }
+
+        private void btnWater_Click(object sender, EventArgs e)
+        {
+            Form15 form15 = new Form15();
+            form15.ShowDialog();
+        }
+
+        private void btnFire_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.ShowDialog();
+        }
     }
 }

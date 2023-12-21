@@ -54,6 +54,7 @@
             this.btn50pt.TabIndex = 1;
             this.btn50pt.Text = "50 points";
             this.btn50pt.UseVisualStyleBackColor = false;
+            this.btn50pt.Click += new System.EventHandler(this.btn50pt_Click);
             // 
             // btn100pt
             // 
@@ -75,6 +76,7 @@
             this.btn150pt.TabIndex = 3;
             this.btn150pt.Text = "150 points";
             this.btn150pt.UseVisualStyleBackColor = false;
+            this.btn150pt.Click += new System.EventHandler(this.btn150pt_Click);
             // 
             // lblTextChooseMnstr
             // 
@@ -98,7 +100,7 @@
             this.Controls.Add(this.btn50pt);
             this.Controls.Add(this.ldlGameName4);
             this.Name = "Form4";
-            this.Text = "Points";
+            this.Text = "Points4";
             this.ResumeLayout(false);
             this.PerformLayout();
 

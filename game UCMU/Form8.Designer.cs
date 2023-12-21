@@ -34,6 +34,7 @@
             // 
             // picBoxFire
             // 
+            this.picBoxFire.BackColor = System.Drawing.Color.Snow;
             this.picBoxFire.Location = new System.Drawing.Point(186, 63);
             this.picBoxFire.Name = "picBoxFire";
             this.picBoxFire.Size = new System.Drawing.Size(401, 159);
@@ -48,7 +49,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.picBoxFire);
             this.Name = "Form8";
-            this.Text = "Fight";
+            this.Text = "Fight8";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxFire)).EndInit();
             this.ResumeLayout(false);
 

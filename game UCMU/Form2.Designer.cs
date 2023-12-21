@@ -91,10 +91,10 @@
             this.lblDorian.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDorian.Location = new System.Drawing.Point(32, 324);
             this.lblDorian.Name = "lblDorian";
-            this.lblDorian.Size = new System.Drawing.Size(737, 60);
+            this.lblDorian.Size = new System.Drawing.Size(741, 60);
             this.lblDorian.TabIndex = 4;
-            this.lblDorian.Text = "Dorian\r\nDorian is shy blackhaired male. He willprotect his friends without hesita" +
-    "tion and usually he doesn\'t like     \r\nbeing the hero. His power is earth.";
+            this.lblDorian.Text = "Dorian\r\nDorian is shy blackhaired male. He will protect his friends without hesit" +
+    "ation and usually he doesn\'t like     \r\nbeing the hero. His power is earth.";
             // 
             // btnNext2
             // 
@@ -105,6 +105,7 @@
             this.btnNext2.TabIndex = 5;
             this.btnNext2.Text = "Next";
             this.btnNext2.UseVisualStyleBackColor = false;
+            this.btnNext2.Click += new System.EventHandler(this.btnNext2_Click);
             // 
             // Form2
             // 
@@ -119,7 +120,7 @@
             this.Controls.Add(this.lblEldhart);
             this.Controls.Add(this.lblGameName2);
             this.Name = "Form2";
-            this.Text = "Characters";
+            this.Text = "Characters2";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -55,6 +55,7 @@
             this.btnTeamElTha.TabIndex = 1;
             this.btnTeamElTha.Text = "Team Eldhart and Thalia";
             this.btnTeamElTha.UseVisualStyleBackColor = false;
+            this.btnTeamElTha.Click += new System.EventHandler(this.btnTeamElTha_Click);
             // 
             // btnTeamSerDor
             // 
@@ -65,6 +66,7 @@
             this.btnTeamSerDor.TabIndex = 2;
             this.btnTeamSerDor.Text = "Team Seraphina and Dorian";
             this.btnTeamSerDor.UseVisualStyleBackColor = false;
+            this.btnTeamSerDor.Click += new System.EventHandler(this.btnTeamSerDor_Click);
             // 
             // lblElTha
             // 
@@ -109,7 +111,8 @@
             this.Controls.Add(this.btnTeamElTha);
             this.Controls.Add(this.lblGameName5);
             this.Name = "Form5";
-            this.Text = "Choose characters";
+            this.Text = "Choose characters5";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

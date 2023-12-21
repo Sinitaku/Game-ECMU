@@ -62,6 +62,7 @@
             this.btnWater.TabIndex = 2;
             this.btnWater.Text = "Water";
             this.btnWater.UseVisualStyleBackColor = false;
+            this.btnWater.Click += new System.EventHandler(this.btnWater_Click);
             // 
             // btnFire
             // 
@@ -73,6 +74,7 @@
             this.btnFire.TabIndex = 3;
             this.btnFire.Text = "Fire";
             this.btnFire.UseVisualStyleBackColor = false;
+            this.btnFire.Click += new System.EventHandler(this.btnFire_Click);
             // 
             // lblGameName3
             // 
@@ -96,7 +98,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form3";
-            this.Text = "Choose the monster";
+            this.Text = "Choose the monster3";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

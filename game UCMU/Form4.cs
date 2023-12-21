@@ -17,9 +17,22 @@ namespace game_UCMU
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)//100pt
         {
+            Form9 form9 = new Form9();
+            form9.ShowDialog();
+        }
 
+        private void btn50pt_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.ShowDialog();
+        }
+
+        private void btn150pt_Click(object sender, EventArgs e)
+        {
+            Form10 form10 = new Form10();
+            form10.ShowDialog();
         }
     }
 }

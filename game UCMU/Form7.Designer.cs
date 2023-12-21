@@ -62,7 +62,7 @@
             this.Controls.Add(this.lblCredits2);
             this.Controls.Add(this.lblCredits);
             this.Name = "Form7";
-            this.Text = "Credits";
+            this.Text = "Credits7";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,5 +16,22 @@ namespace game_UCMU
         {
             InitializeComponent();
         }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTeamElTha_Click(object sender, EventArgs e)
+        {
+            Form16 form16 = new Form16();
+            form16.ShowDialog();
+        }
+
+        private void btnTeamSerDor_Click(object sender, EventArgs e)
+        {
+            Form11 form11 = new Form11();
+            form11.ShowDialog();
+        }
     }
 }
