@@ -85,7 +85,7 @@
             this.btnElPow1.Name = "btnElPow1";
             this.btnElPow1.Size = new System.Drawing.Size(84, 34);
             this.btnElPow1.TabIndex = 17;
-            this.btnElPow1.Text = "Attack 1 -10xp";
+            this.btnElPow1.Text = "Attack 1 -5xp";
             this.btnElPow1.UseVisualStyleBackColor = false;
             // 
             // btnThaPow2
@@ -95,7 +95,7 @@
             this.btnThaPow2.Name = "btnThaPow2";
             this.btnThaPow2.Size = new System.Drawing.Size(84, 34);
             this.btnThaPow2.TabIndex = 18;
-            this.btnThaPow2.Text = "Attack 1 -15xp";
+            this.btnThaPow2.Text = "Attack 1 -10xp";
             this.btnThaPow2.UseVisualStyleBackColor = false;
             // 
             // btnThaPow1
@@ -105,7 +105,7 @@
             this.btnThaPow1.Name = "btnThaPow1";
             this.btnThaPow1.Size = new System.Drawing.Size(84, 34);
             this.btnThaPow1.TabIndex = 19;
-            this.btnThaPow1.Text = "Attack 1 -10xp";
+            this.btnThaPow1.Text = "Attack 1 -5xp";
             this.btnThaPow1.UseVisualStyleBackColor = false;
             // 
             // btnElPow2
@@ -115,7 +115,7 @@
             this.btnElPow2.Name = "btnElPow2";
             this.btnElPow2.Size = new System.Drawing.Size(84, 34);
             this.btnElPow2.TabIndex = 20;
-            this.btnElPow2.Text = "Attack 1 -15xp";
+            this.btnElPow2.Text = "Attack 1 -10xp";
             this.btnElPow2.UseVisualStyleBackColor = false;
             // 
             // Form20

@@ -49,7 +49,7 @@
             // 
             this.pictureBox2.Location = new System.Drawing.Point(416, 80);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(349, 185);
+            this.pictureBox2.Size = new System.Drawing.Size(350, 185);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
@@ -78,13 +78,13 @@
             // 
             // lblGameName3
             // 
-            this.lblGameName3.AutoSize = true;
             this.lblGameName3.BackColor = System.Drawing.Color.Snow;
-            this.lblGameName3.Location = new System.Drawing.Point(218, 29);
+            this.lblGameName3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.lblGameName3.Location = new System.Drawing.Point(196, 29);
             this.lblGameName3.Name = "lblGameName3";
-            this.lblGameName3.Size = new System.Drawing.Size(311, 13);
+            this.lblGameName3.Size = new System.Drawing.Size(415, 25);
             this.lblGameName3.TabIndex = 4;
-            this.lblGameName3.Text = "Elemental Conquest: Monsters Unleashed, choosing the monster";
+            this.lblGameName3.Text = "Elemental Conquest: Monsters Unleashed\r\n";
             // 
             // Form3
             // 
@@ -103,7 +103,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

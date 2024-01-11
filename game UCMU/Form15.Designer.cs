@@ -28,65 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn50pt2 = new System.Windows.Forms.Button();
+            this.btn30pt2 = new System.Windows.Forms.Button();
+            this.btn60pt2 = new System.Windows.Forms.Button();
             this.btn100pt2 = new System.Windows.Forms.Button();
-            this.btn150pt2 = new System.Windows.Forms.Button();
             this.ldlGameName7 = new System.Windows.Forms.Label();
             this.lblTextChooseMnstr2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn50pt2
+            // btn30pt2
             // 
-            this.btn50pt2.BackColor = System.Drawing.Color.Snow;
-            this.btn50pt2.Location = new System.Drawing.Point(78, 278);
-            this.btn50pt2.Name = "btn50pt2";
-            this.btn50pt2.Size = new System.Drawing.Size(126, 59);
-            this.btn50pt2.TabIndex = 2;
-            this.btn50pt2.Text = "50 points";
-            this.btn50pt2.UseVisualStyleBackColor = false;
-            this.btn50pt2.Click += new System.EventHandler(this.btn50pt2_Click);
+            this.btn30pt2.BackColor = System.Drawing.Color.Snow;
+            this.btn30pt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn30pt2.Location = new System.Drawing.Point(94, 271);
+            this.btn30pt2.Name = "btn30pt2";
+            this.btn30pt2.Size = new System.Drawing.Size(126, 59);
+            this.btn30pt2.TabIndex = 2;
+            this.btn30pt2.Text = "30 points";
+            this.btn30pt2.UseVisualStyleBackColor = false;
+            this.btn30pt2.Click += new System.EventHandler(this.btn50pt2_Click);
+            // 
+            // btn60pt2
+            // 
+            this.btn60pt2.BackColor = System.Drawing.Color.Snow;
+            this.btn60pt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn60pt2.Location = new System.Drawing.Point(337, 271);
+            this.btn60pt2.Name = "btn60pt2";
+            this.btn60pt2.Size = new System.Drawing.Size(126, 59);
+            this.btn60pt2.TabIndex = 3;
+            this.btn60pt2.Text = "60 points";
+            this.btn60pt2.UseVisualStyleBackColor = false;
+            this.btn60pt2.Click += new System.EventHandler(this.btn100pt2_Click);
             // 
             // btn100pt2
             // 
             this.btn100pt2.BackColor = System.Drawing.Color.Snow;
-            this.btn100pt2.Location = new System.Drawing.Point(289, 278);
+            this.btn100pt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn100pt2.Location = new System.Drawing.Point(572, 271);
             this.btn100pt2.Name = "btn100pt2";
-            this.btn100pt2.Size = new System.Drawing.Size(124, 59);
-            this.btn100pt2.TabIndex = 3;
+            this.btn100pt2.Size = new System.Drawing.Size(126, 59);
+            this.btn100pt2.TabIndex = 4;
             this.btn100pt2.Text = "100 points";
             this.btn100pt2.UseVisualStyleBackColor = false;
-            this.btn100pt2.Click += new System.EventHandler(this.btn100pt2_Click);
-            // 
-            // btn150pt2
-            // 
-            this.btn150pt2.BackColor = System.Drawing.Color.Snow;
-            this.btn150pt2.Location = new System.Drawing.Point(513, 278);
-            this.btn150pt2.Name = "btn150pt2";
-            this.btn150pt2.Size = new System.Drawing.Size(121, 59);
-            this.btn150pt2.TabIndex = 4;
-            this.btn150pt2.Text = "150 points";
-            this.btn150pt2.UseVisualStyleBackColor = false;
-            this.btn150pt2.Click += new System.EventHandler(this.btn150pt2_Click);
+            this.btn100pt2.Click += new System.EventHandler(this.btn150pt2_Click);
             // 
             // ldlGameName7
             // 
-            this.ldlGameName7.AutoSize = true;
             this.ldlGameName7.BackColor = System.Drawing.Color.Snow;
-            this.ldlGameName7.Location = new System.Drawing.Point(215, 58);
+            this.ldlGameName7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.ldlGameName7.Location = new System.Drawing.Point(196, 29);
             this.ldlGameName7.Name = "ldlGameName7";
-            this.ldlGameName7.Size = new System.Drawing.Size(312, 13);
+            this.ldlGameName7.Size = new System.Drawing.Size(415, 25);
             this.ldlGameName7.TabIndex = 5;
-            this.ldlGameName7.Text = "Elemental Conquest: Monsters Unleashed, Choosing the monster";
+            this.ldlGameName7.Text = "Elemental Conquest: Monsters Unleashed\r\n";
             // 
             // lblTextChooseMnstr2
             // 
-            this.lblTextChooseMnstr2.AutoSize = true;
             this.lblTextChooseMnstr2.BackColor = System.Drawing.Color.Snow;
-            this.lblTextChooseMnstr2.Location = new System.Drawing.Point(245, 183);
+            this.lblTextChooseMnstr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblTextChooseMnstr2.Location = new System.Drawing.Point(177, 115);
             this.lblTextChooseMnstr2.Name = "lblTextChooseMnstr2";
-            this.lblTextChooseMnstr2.Size = new System.Drawing.Size(282, 13);
+            this.lblTextChooseMnstr2.Size = new System.Drawing.Size(447, 69);
             this.lblTextChooseMnstr2.TabIndex = 6;
-            this.lblTextChooseMnstr2.Text = "Choose points for your monsterfight by pressing the button:";
+            this.lblTextChooseMnstr2.Text = "Choose a monster! \r\nThe points you choose will decide how difficult the level is." +
+    "\r\n More points= harder level.\r\n";
             // 
             // Form15
             // 
@@ -96,21 +100,20 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblTextChooseMnstr2);
             this.Controls.Add(this.ldlGameName7);
-            this.Controls.Add(this.btn150pt2);
             this.Controls.Add(this.btn100pt2);
-            this.Controls.Add(this.btn50pt2);
+            this.Controls.Add(this.btn60pt2);
+            this.Controls.Add(this.btn30pt2);
             this.Name = "Form15";
             this.Text = "Points15";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btn50pt2;
+        private System.Windows.Forms.Button btn30pt2;
+        private System.Windows.Forms.Button btn60pt2;
         private System.Windows.Forms.Button btn100pt2;
-        private System.Windows.Forms.Button btn150pt2;
         private System.Windows.Forms.Label ldlGameName7;
         private System.Windows.Forms.Label lblTextChooseMnstr2;
     }

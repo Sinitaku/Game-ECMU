@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblCredits.Text" xml:space="preserve">
+    <value>Thank you for succesfully saving Elemental Conquest. You became 
+a hero and you were given an award from The Master of the city. 
+Elemental Conquest survived untouched and all the citizens survived. 
+Monsters ran away and they won't come back.
+
+For now your job is done and you will travel back to home with 
+your teammates. You all are bit injured but happy. </value>
+  </data>
 </root>

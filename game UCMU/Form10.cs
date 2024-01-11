@@ -28,5 +28,10 @@ namespace game_UCMU
             Form14 form14 = new Form14();
             form14.ShowDialog();
         }
+
+        private void lblTeamSeDoInfo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace game_UCMU
         {
             InitializeComponent();
         }
+
+        private void lblDorian4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

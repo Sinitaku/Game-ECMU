@@ -120,11 +120,10 @@
   <data name="lblInfoStrt.Text" xml:space="preserve">
     <value>Welcome to Elemental Conquest, the world of elements and monsters. Your job here is to fight against 
 monsters and collect enough points to win. You are given four different characters with different powers. 
-You can choose the monsters and playable characters in every fight.
-During the fight you take some damage but you can't die, because your characters are gods that came 
-to help the city. You can win monsters with one charecter but the faster way is to take two and 
-use them both.
-Maximum amount of points is 500. There is three different levels of monsters: level 1 with 50 points, 
-level 2 with 100 points and level 3 with 150 points.</value>
+They make two teams.
+You can choose the monsters and playable team in every fight.
+During the fight you can't die because you'r characters are gods who came to help the city.
+You win the game when you collect 200 points. There is also three different levels of monsters:
+level 1 with 30 points, level 2 with 60 points and level 3 with 100 points.</value>
   </data>
 </root>
