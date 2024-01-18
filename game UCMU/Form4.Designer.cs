@@ -90,7 +90,7 @@
             this.lblTextChooseMnstr.Size = new System.Drawing.Size(447, 69);
             this.lblTextChooseMnstr.TabIndex = 4;
             this.lblTextChooseMnstr.Text = "Choose a monster! \r\nThe points you choose will decide how difficult the level is." +
-    "\r\n More points= harder level.";
+    "\r\nMore points= harder level.";
             // 
             // Form4
             // 

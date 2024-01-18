@@ -40,18 +40,19 @@
             // 
             // lblGameName7
             // 
-            this.lblGameName7.AutoSize = true;
             this.lblGameName7.BackColor = System.Drawing.Color.Snow;
-            this.lblGameName7.Location = new System.Drawing.Point(209, 54);
+            this.lblGameName7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.5F);
+            this.lblGameName7.Location = new System.Drawing.Point(196, 29);
             this.lblGameName7.Name = "lblGameName7";
-            this.lblGameName7.Size = new System.Drawing.Size(322, 13);
+            this.lblGameName7.Size = new System.Drawing.Size(415, 25);
             this.lblGameName7.TabIndex = 4;
-            this.lblGameName7.Text = "Elemental Conquest: Monsters Unleashed, Choose your characters";
+            this.lblGameName7.Text = "Elemental Conquest: Monsters Unleashed";
             // 
             // btnTeamElTha4
             // 
             this.btnTeamElTha4.BackColor = System.Drawing.Color.Snow;
-            this.btnTeamElTha4.Location = new System.Drawing.Point(146, 334);
+            this.btnTeamElTha4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnTeamElTha4.Location = new System.Drawing.Point(131, 320);
             this.btnTeamElTha4.Name = "btnTeamElTha4";
             this.btnTeamElTha4.Size = new System.Drawing.Size(143, 50);
             this.btnTeamElTha4.TabIndex = 5;
@@ -62,7 +63,8 @@
             // btnTeamSeDo4
             // 
             this.btnTeamSeDo4.BackColor = System.Drawing.Color.Snow;
-            this.btnTeamSeDo4.Location = new System.Drawing.Point(500, 334);
+            this.btnTeamSeDo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnTeamSeDo4.Location = new System.Drawing.Point(513, 320);
             this.btnTeamSeDo4.Name = "btnTeamSeDo4";
             this.btnTeamSeDo4.Size = new System.Drawing.Size(144, 50);
             this.btnTeamSeDo4.TabIndex = 6;
@@ -74,9 +76,10 @@
             // 
             this.lblTeamSeDoInfo.AutoSize = true;
             this.lblTeamSeDoInfo.BackColor = System.Drawing.Color.Snow;
-            this.lblTeamSeDoInfo.Location = new System.Drawing.Point(451, 198);
+            this.lblTeamSeDoInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblTeamSeDoInfo.Location = new System.Drawing.Point(411, 175);
             this.lblTeamSeDoInfo.Name = "lblTeamSeDoInfo";
-            this.lblTeamSeDoInfo.Size = new System.Drawing.Size(255, 13);
+            this.lblTeamSeDoInfo.Size = new System.Drawing.Size(298, 15);
             this.lblTeamSeDoInfo.TabIndex = 12;
             this.lblTeamSeDoInfo.Text = "Seraphina\'s power is fire and Dorian\'s power is earth.";
             // 
@@ -84,9 +87,10 @@
             // 
             this.lblTeamElThaInfo.AutoSize = true;
             this.lblTeamElThaInfo.BackColor = System.Drawing.Color.Snow;
-            this.lblTeamElThaInfo.Location = new System.Drawing.Point(95, 198);
+            this.lblTeamElThaInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblTeamElThaInfo.Location = new System.Drawing.Point(65, 175);
             this.lblTeamElThaInfo.Name = "lblTeamElThaInfo";
-            this.lblTeamElThaInfo.Size = new System.Drawing.Size(273, 13);
+            this.lblTeamElThaInfo.Size = new System.Drawing.Size(315, 15);
             this.lblTeamElThaInfo.TabIndex = 11;
             this.lblTeamElThaInfo.Text = "Eldhart\'s power is water and Thalia\'s power is electricity. ";
             // 
@@ -94,9 +98,10 @@
             // 
             this.lblChooseTeam.AutoSize = true;
             this.lblChooseTeam.BackColor = System.Drawing.Color.Snow;
-            this.lblChooseTeam.Location = new System.Drawing.Point(345, 287);
+            this.lblChooseTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblChooseTeam.Location = new System.Drawing.Point(308, 263);
             this.lblChooseTeam.Name = "lblChooseTeam";
-            this.lblChooseTeam.Size = new System.Drawing.Size(95, 13);
+            this.lblChooseTeam.Size = new System.Drawing.Size(142, 20);
             this.lblChooseTeam.TabIndex = 10;
             this.lblChooseTeam.Text = "Choose your team:";
             // 
@@ -104,9 +109,10 @@
             // 
             this.lblSeDo.AutoSize = true;
             this.lblSeDo.BackColor = System.Drawing.Color.Snow;
-            this.lblSeDo.Location = new System.Drawing.Point(504, 150);
+            this.lblSeDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblSeDo.Location = new System.Drawing.Point(456, 129);
             this.lblSeDo.Name = "lblSeDo";
-            this.lblSeDo.Size = new System.Drawing.Size(140, 13);
+            this.lblSeDo.Size = new System.Drawing.Size(208, 20);
             this.lblSeDo.TabIndex = 9;
             this.lblSeDo.Text = "Team Seraphina and Dorian";
             // 
@@ -114,9 +120,10 @@
             // 
             this.lblElTha.AutoSize = true;
             this.lblElTha.BackColor = System.Drawing.Color.Snow;
-            this.lblElTha.Location = new System.Drawing.Point(143, 150);
+            this.lblElTha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblElTha.Location = new System.Drawing.Point(127, 129);
             this.lblElTha.Name = "lblElTha";
-            this.lblElTha.Size = new System.Drawing.Size(123, 13);
+            this.lblElTha.Size = new System.Drawing.Size(181, 20);
             this.lblElTha.TabIndex = 8;
             this.lblElTha.Text = "Team Eldhart and Thalia";
             // 

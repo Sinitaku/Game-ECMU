@@ -36,6 +36,7 @@
             this.lblSeraphina4 = new System.Windows.Forms.Label();
             this.lblGameName10 = new System.Windows.Forms.Label();
             this.picBowFire2 = new System.Windows.Forms.PictureBox();
+            this.progBarFire = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.picBowFire2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             this.btnDoPow2.TabIndex = 44;
             this.btnDoPow2.Text = "Attack 2 -10xp";
             this.btnDoPow2.UseVisualStyleBackColor = false;
+            this.btnDoPow2.Click += new System.EventHandler(this.btnDoPow2_Click);
             // 
             // btnDoPow1
             // 
@@ -60,6 +62,7 @@
             this.btnDoPow1.TabIndex = 43;
             this.btnDoPow1.Text = "Attack 1 -5xp";
             this.btnDoPow1.UseVisualStyleBackColor = false;
+            this.btnDoPow1.Click += new System.EventHandler(this.btnDoPow1_Click);
             // 
             // btnSePow2
             // 
@@ -71,6 +74,7 @@
             this.btnSePow2.TabIndex = 42;
             this.btnSePow2.Text = "Attack 2 -10xp";
             this.btnSePow2.UseVisualStyleBackColor = false;
+            this.btnSePow2.Click += new System.EventHandler(this.btnSePow2_Click);
             // 
             // btnSePow1
             // 
@@ -82,6 +86,7 @@
             this.btnSePow1.TabIndex = 41;
             this.btnSePow1.Text = "Attack 1 -5xp";
             this.btnSePow1.UseVisualStyleBackColor = false;
+            this.btnSePow1.Click += new System.EventHandler(this.btnSePow1_Click);
             // 
             // lblDorian4
             // 
@@ -125,12 +130,21 @@
             this.picBowFire2.TabIndex = 37;
             this.picBowFire2.TabStop = false;
             // 
+            // progBarFire
+            // 
+            this.progBarFire.Location = new System.Drawing.Point(211, 238);
+            this.progBarFire.Maximum = 60;
+            this.progBarFire.Name = "progBarFire";
+            this.progBarFire.Size = new System.Drawing.Size(391, 23);
+            this.progBarFire.TabIndex = 45;
+            // 
             // Form12
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progBarFire);
             this.Controls.Add(this.btnDoPow2);
             this.Controls.Add(this.btnDoPow1);
             this.Controls.Add(this.btnSePow2);
@@ -157,5 +171,6 @@
         private System.Windows.Forms.Label lblSeraphina4;
         private System.Windows.Forms.Label lblGameName10;
         private System.Windows.Forms.PictureBox picBowFire2;
+        private System.Windows.Forms.ProgressBar progBarFire;
     }
 }

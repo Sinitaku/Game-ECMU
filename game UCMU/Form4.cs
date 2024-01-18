@@ -20,18 +20,21 @@ namespace game_UCMU
         private void button2_Click(object sender, EventArgs e)//100pt
         {
             Form9 form9 = new Form9();
+            form9.pisteet = 30;
             form9.ShowDialog();
         }
 
         private void btn50pt_Click(object sender, EventArgs e)
         {
             Form5 form5 = new Form5();
+            form5.pisteet = 60;
             form5.ShowDialog();
         }
 
         private void btn150pt_Click(object sender, EventArgs e)
         {
             Form10 form10 = new Form10();
+            form10.pisteet = 100;
             form10.ShowDialog();
         }
     }

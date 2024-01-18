@@ -33,6 +33,7 @@
             this.lblCredits = new System.Windows.Forms.Label();
             this.lblCredits2 = new System.Windows.Forms.Label();
             this.lblCredits3 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblGameName8
@@ -78,12 +79,25 @@
             this.lblCredits3.TabIndex = 3;
             this.lblCredits3.Text = "Thank you for gaming!";
             // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.Snow;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnClose.Location = new System.Drawing.Point(365, 400);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblCredits3);
             this.Controls.Add(this.lblCredits2);
             this.Controls.Add(this.lblCredits);
@@ -101,5 +115,6 @@
         private System.Windows.Forms.Label lblCredits;
         private System.Windows.Forms.Label lblCredits2;
         private System.Windows.Forms.Label lblCredits3;
+        private System.Windows.Forms.Button btnClose;
     }
 }

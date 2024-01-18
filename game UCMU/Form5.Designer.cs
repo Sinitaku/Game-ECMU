@@ -51,22 +51,24 @@
             // btnTeamElTha
             // 
             this.btnTeamElTha.BackColor = System.Drawing.Color.Snow;
+            this.btnTeamElTha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnTeamElTha.Location = new System.Drawing.Point(131, 320);
             this.btnTeamElTha.Name = "btnTeamElTha";
             this.btnTeamElTha.Size = new System.Drawing.Size(149, 49);
             this.btnTeamElTha.TabIndex = 1;
-            this.btnTeamElTha.Text = "Team Eldhart and Thalia";
+            this.btnTeamElTha.Text = "Eldhart and Thalia";
             this.btnTeamElTha.UseVisualStyleBackColor = false;
             this.btnTeamElTha.Click += new System.EventHandler(this.btnTeamElTha_Click);
             // 
             // btnTeamSerDor
             // 
             this.btnTeamSerDor.BackColor = System.Drawing.Color.Snow;
+            this.btnTeamSerDor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnTeamSerDor.Location = new System.Drawing.Point(513, 320);
             this.btnTeamSerDor.Name = "btnTeamSerDor";
             this.btnTeamSerDor.Size = new System.Drawing.Size(151, 49);
             this.btnTeamSerDor.TabIndex = 2;
-            this.btnTeamSerDor.Text = "Team Seraphina and Dorian";
+            this.btnTeamSerDor.Text = "Seraphina and Dorian";
             this.btnTeamSerDor.UseVisualStyleBackColor = false;
             this.btnTeamSerDor.Click += new System.EventHandler(this.btnTeamSerDor_Click);
             // 

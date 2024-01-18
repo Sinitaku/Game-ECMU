@@ -36,6 +36,7 @@
             this.lblThalia4 = new System.Windows.Forms.Label();
             this.lblEldhart4 = new System.Windows.Forms.Label();
             this.picBowFire3 = new System.Windows.Forms.PictureBox();
+            this.progBarFire = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.picBowFire3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             this.btnThaPow2.TabIndex = 40;
             this.btnThaPow2.Text = "Attack 2 -15xp";
             this.btnThaPow2.UseVisualStyleBackColor = false;
+            this.btnThaPow2.Click += new System.EventHandler(this.btnThaPow2_Click);
             // 
             // btnThaPow1
             // 
@@ -60,6 +62,7 @@
             this.btnThaPow1.TabIndex = 39;
             this.btnThaPow1.Text = "Attack 1 -10xp";
             this.btnThaPow1.UseVisualStyleBackColor = false;
+            this.btnThaPow1.Click += new System.EventHandler(this.btnThaPow1_Click);
             // 
             // btnElPow2
             // 
@@ -71,6 +74,7 @@
             this.btnElPow2.TabIndex = 38;
             this.btnElPow2.Text = "Attack 2 -15xp";
             this.btnElPow2.UseVisualStyleBackColor = false;
+            this.btnElPow2.Click += new System.EventHandler(this.btnElPow2_Click);
             // 
             // btnElPow1
             // 
@@ -82,6 +86,7 @@
             this.btnElPow1.TabIndex = 37;
             this.btnElPow1.Text = "Attack 1 -10xp";
             this.btnElPow1.UseVisualStyleBackColor = false;
+            this.btnElPow1.Click += new System.EventHandler(this.btnElPow1_Click);
             // 
             // lblGameName9
             // 
@@ -124,12 +129,20 @@
             this.picBowFire3.TabIndex = 33;
             this.picBowFire3.TabStop = false;
             // 
+            // progBarFire
+            // 
+            this.progBarFire.Location = new System.Drawing.Point(211, 238);
+            this.progBarFire.Name = "progBarFire";
+            this.progBarFire.Size = new System.Drawing.Size(391, 23);
+            this.progBarFire.TabIndex = 41;
+            // 
             // Form13
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progBarFire);
             this.Controls.Add(this.btnThaPow2);
             this.Controls.Add(this.btnThaPow1);
             this.Controls.Add(this.btnElPow2);
@@ -156,5 +169,6 @@
         private System.Windows.Forms.Label lblThalia4;
         private System.Windows.Forms.Label lblEldhart4;
         private System.Windows.Forms.PictureBox picBowFire3;
+        private System.Windows.Forms.ProgressBar progBarFire;
     }
 }

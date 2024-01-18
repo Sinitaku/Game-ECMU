@@ -41,7 +41,8 @@
             // btnTeamElTha3
             // 
             this.btnTeamElTha3.BackColor = System.Drawing.Color.Snow;
-            this.btnTeamElTha3.Location = new System.Drawing.Point(146, 322);
+            this.btnTeamElTha3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnTeamElTha3.Location = new System.Drawing.Point(131, 320);
             this.btnTeamElTha3.Name = "btnTeamElTha3";
             this.btnTeamElTha3.Size = new System.Drawing.Size(143, 50);
             this.btnTeamElTha3.TabIndex = 1;
@@ -52,7 +53,8 @@
             // btnTeamSeDo3
             // 
             this.btnTeamSeDo3.BackColor = System.Drawing.Color.Snow;
-            this.btnTeamSeDo3.Location = new System.Drawing.Point(500, 322);
+            this.btnTeamSeDo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnTeamSeDo3.Location = new System.Drawing.Point(513, 320);
             this.btnTeamSeDo3.Name = "btnTeamSeDo3";
             this.btnTeamSeDo3.Size = new System.Drawing.Size(144, 50);
             this.btnTeamSeDo3.TabIndex = 2;
@@ -75,7 +77,7 @@
             this.lblTeamSeDoInfo.AutoSize = true;
             this.lblTeamSeDoInfo.BackColor = System.Drawing.Color.Snow;
             this.lblTeamSeDoInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblTeamSeDoInfo.Location = new System.Drawing.Point(419, 198);
+            this.lblTeamSeDoInfo.Location = new System.Drawing.Point(411, 175);
             this.lblTeamSeDoInfo.Name = "lblTeamSeDoInfo";
             this.lblTeamSeDoInfo.Size = new System.Drawing.Size(298, 15);
             this.lblTeamSeDoInfo.TabIndex = 17;
@@ -87,7 +89,7 @@
             this.lblTeamElThaInfo.AutoSize = true;
             this.lblTeamElThaInfo.BackColor = System.Drawing.Color.Snow;
             this.lblTeamElThaInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblTeamElThaInfo.Location = new System.Drawing.Point(48, 198);
+            this.lblTeamElThaInfo.Location = new System.Drawing.Point(65, 175);
             this.lblTeamElThaInfo.Name = "lblTeamElThaInfo";
             this.lblTeamElThaInfo.Size = new System.Drawing.Size(315, 15);
             this.lblTeamElThaInfo.TabIndex = 16;
@@ -98,7 +100,7 @@
             this.lblChooseTeam.AutoSize = true;
             this.lblChooseTeam.BackColor = System.Drawing.Color.Snow;
             this.lblChooseTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblChooseTeam.Location = new System.Drawing.Point(320, 262);
+            this.lblChooseTeam.Location = new System.Drawing.Point(308, 263);
             this.lblChooseTeam.Name = "lblChooseTeam";
             this.lblChooseTeam.Size = new System.Drawing.Size(142, 20);
             this.lblChooseTeam.TabIndex = 15;
@@ -109,7 +111,7 @@
             this.lblSeDo.AutoSize = true;
             this.lblSeDo.BackColor = System.Drawing.Color.Snow;
             this.lblSeDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblSeDo.Location = new System.Drawing.Point(469, 126);
+            this.lblSeDo.Location = new System.Drawing.Point(456, 129);
             this.lblSeDo.Name = "lblSeDo";
             this.lblSeDo.Size = new System.Drawing.Size(208, 20);
             this.lblSeDo.TabIndex = 14;
@@ -120,7 +122,7 @@
             this.lblElTha.AutoSize = true;
             this.lblElTha.BackColor = System.Drawing.Color.Snow;
             this.lblElTha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblElTha.Location = new System.Drawing.Point(108, 126);
+            this.lblElTha.Location = new System.Drawing.Point(127, 129);
             this.lblElTha.Name = "lblElTha";
             this.lblElTha.Size = new System.Drawing.Size(181, 20);
             this.lblElTha.TabIndex = 13;

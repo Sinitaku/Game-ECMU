@@ -36,6 +36,7 @@
             this.btnThaPow1 = new System.Windows.Forms.Button();
             this.btnThaPow2 = new System.Windows.Forms.Button();
             this.lblGameName6 = new System.Windows.Forms.Label();
+            this.progBarWtr = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.picBowWater)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,6 +81,7 @@
             this.btnElPow1.TabIndex = 3;
             this.btnElPow1.Text = "Attack 1 -5xp";
             this.btnElPow1.UseVisualStyleBackColor = false;
+            this.btnElPow1.Click += new System.EventHandler(this.btnElPow1_Click);
             // 
             // btnElPow2
             // 
@@ -91,6 +93,7 @@
             this.btnElPow2.TabIndex = 4;
             this.btnElPow2.Text = "Attack 2 -10xp";
             this.btnElPow2.UseVisualStyleBackColor = false;
+            this.btnElPow2.Click += new System.EventHandler(this.btnElPow2_Click);
             // 
             // btnThaPow1
             // 
@@ -102,6 +105,7 @@
             this.btnThaPow1.TabIndex = 5;
             this.btnThaPow1.Text = "Attack 1 -5xp";
             this.btnThaPow1.UseVisualStyleBackColor = false;
+            this.btnThaPow1.Click += new System.EventHandler(this.btnThaPow1_Click);
             // 
             // btnThaPow2
             // 
@@ -113,6 +117,7 @@
             this.btnThaPow2.TabIndex = 6;
             this.btnThaPow2.Text = "Attack 2 -10xp";
             this.btnThaPow2.UseVisualStyleBackColor = false;
+            this.btnThaPow2.Click += new System.EventHandler(this.btnThaPow2_Click);
             // 
             // lblGameName6
             // 
@@ -124,12 +129,22 @@
             this.lblGameName6.TabIndex = 7;
             this.lblGameName6.Text = "Elemental Conquest: Monsters Unleashed";
             // 
+            // progBarWtr
+            // 
+            this.progBarWtr.BackColor = System.Drawing.Color.Snow;
+            this.progBarWtr.Location = new System.Drawing.Point(211, 238);
+            this.progBarWtr.Maximum = 30;
+            this.progBarWtr.Name = "progBarWtr";
+            this.progBarWtr.Size = new System.Drawing.Size(391, 23);
+            this.progBarWtr.TabIndex = 8;
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progBarWtr);
             this.Controls.Add(this.lblGameName6);
             this.Controls.Add(this.btnThaPow2);
             this.Controls.Add(this.btnThaPow1);
@@ -156,5 +171,6 @@
         private System.Windows.Forms.Button btnThaPow1;
         private System.Windows.Forms.Button btnThaPow2;
         private System.Windows.Forms.Label lblGameName6;
+        private System.Windows.Forms.ProgressBar progBarWtr;
     }
 }

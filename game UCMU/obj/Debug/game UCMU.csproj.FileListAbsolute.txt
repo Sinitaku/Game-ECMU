@@ -87,3 +87,37 @@ C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\game UCMU\Game-ECMU\game UCMU\obj
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\game UCMU\Game-ECMU\game UCMU\obj\Debug\game UCMU.csproj.CoreCompileInputs.cache
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\game UCMU\Game-ECMU\game UCMU\obj\Debug\game UCMU.exe
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\game UCMU\Game-ECMU\game UCMU\obj\Debug\game UCMU.pdb
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\bin\Debug\game UCMU.exe.config
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\bin\Debug\game UCMU.exe
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\bin\Debug\game UCMU.pdb
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.csprojAssemblyReference.cache
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form1.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form10.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form11.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form12.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form13.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form14.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form15.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form16.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form17.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form18.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form19.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form2.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form20.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form21.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form22.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form23.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form24.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form3.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form4.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form5.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form6.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form7.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form8.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form9.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Properties.Resources.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.csproj.GenerateResource.cache
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.csproj.CoreCompileInputs.cache
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.exe
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.pdb
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form25.resources

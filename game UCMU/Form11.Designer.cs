@@ -36,6 +36,7 @@
             this.btnDoPow1 = new System.Windows.Forms.Button();
             this.btnSePow2 = new System.Windows.Forms.Button();
             this.btnSePow1 = new System.Windows.Forms.Button();
+            this.progBarFire = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.picBowFire2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,6 +91,7 @@
             this.btnDoPow2.TabIndex = 36;
             this.btnDoPow2.Text = "Attack 2 -10xp";
             this.btnDoPow2.UseVisualStyleBackColor = false;
+            this.btnDoPow2.Click += new System.EventHandler(this.btnDoPow2_Click);
             // 
             // btnDoPow1
             // 
@@ -101,6 +103,7 @@
             this.btnDoPow1.TabIndex = 35;
             this.btnDoPow1.Text = "Attack 1 -5xp";
             this.btnDoPow1.UseVisualStyleBackColor = false;
+            this.btnDoPow1.Click += new System.EventHandler(this.btnDoPow1_Click);
             // 
             // btnSePow2
             // 
@@ -112,6 +115,7 @@
             this.btnSePow2.TabIndex = 34;
             this.btnSePow2.Text = "Attack 2 -10xp";
             this.btnSePow2.UseVisualStyleBackColor = false;
+            this.btnSePow2.Click += new System.EventHandler(this.btnSePow2_Click);
             // 
             // btnSePow1
             // 
@@ -123,6 +127,15 @@
             this.btnSePow1.TabIndex = 33;
             this.btnSePow1.Text = "Attack 1 -5xp";
             this.btnSePow1.UseVisualStyleBackColor = false;
+            this.btnSePow1.Click += new System.EventHandler(this.btnSePow1_Click);
+            // 
+            // progBarFire
+            // 
+            this.progBarFire.Location = new System.Drawing.Point(211, 238);
+            this.progBarFire.Maximum = 30;
+            this.progBarFire.Name = "progBarFire";
+            this.progBarFire.Size = new System.Drawing.Size(391, 23);
+            this.progBarFire.TabIndex = 37;
             // 
             // Form11
             // 
@@ -130,6 +143,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progBarFire);
             this.Controls.Add(this.btnDoPow2);
             this.Controls.Add(this.btnDoPow1);
             this.Controls.Add(this.btnSePow2);
@@ -156,5 +170,6 @@
         private System.Windows.Forms.Button btnDoPow1;
         private System.Windows.Forms.Button btnSePow2;
         private System.Windows.Forms.Button btnSePow1;
+        private System.Windows.Forms.ProgressBar progBarFire;
     }
 }
