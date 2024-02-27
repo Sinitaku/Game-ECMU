@@ -120,7 +120,7 @@
             this.Controls.Add(this.lblEldhart);
             this.Controls.Add(this.lblGameName2);
             this.Name = "Form2";
-            this.Text = "Characters2";
+            this.Text = "Elemental Conquest: Monsters Unleashed, Characters";
             this.ResumeLayout(false);
             this.PerformLayout();
 

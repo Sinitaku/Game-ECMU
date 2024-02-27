@@ -12,7 +12,6 @@ namespace game_UCMU
 {
     public partial class Form17 : Form
     {
-        public int pisteet { get; set; }
         public Form17()
         {
             InitializeComponent();
@@ -21,14 +20,12 @@ namespace game_UCMU
         private void btnTeamElTha4_Click(object sender, EventArgs e)
         {
             Form6 form6 = new Form6();
-            form6.pisteet = pisteet;
             form6.ShowDialog();
         }
 
         private void btnTeamSeDo4_Click(object sender, EventArgs e)
         {
             Form18 form18 = new Form18();
-            form18.pisteet = pisteet;
             form18.ShowDialog();
         }
     }

@@ -90,7 +90,6 @@ C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\game UCMU\Game-ECMU\game UCMU\obj
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\bin\Debug\game UCMU.exe.config
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\bin\Debug\game UCMU.exe
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\bin\Debug\game UCMU.pdb
-C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.csprojAssemblyReference.cache
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form1.resources
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form10.resources
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form11.resources
@@ -121,3 +120,4 @@ C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\gam
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.exe
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.pdb
 C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game_UCMU.Form25.resources
+C:\Users\s3tasi02\OneDrive - OSAO\C# lopputyö\Game-ECMU\game UCMU\obj\Debug\game UCMU.csprojAssemblyReference.cache

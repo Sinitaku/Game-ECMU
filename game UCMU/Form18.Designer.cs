@@ -43,9 +43,11 @@
             // picBowWater2
             // 
             this.picBowWater2.BackColor = System.Drawing.Color.Snow;
+            this.picBowWater2.Image = global::game_UCMU.Properties.Resources.watermonster;
             this.picBowWater2.Location = new System.Drawing.Point(211, 67);
             this.picBowWater2.Name = "picBowWater2";
             this.picBowWater2.Size = new System.Drawing.Size(391, 194);
+            this.picBowWater2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBowWater2.TabIndex = 1;
             this.picBowWater2.TabStop = false;
             // 
@@ -154,7 +156,7 @@
             this.Controls.Add(this.lblGameName6);
             this.Controls.Add(this.picBowWater2);
             this.Name = "Form18";
-            this.Text = "Fight18";
+            this.Text = "Elemental Conquest: Monsters Unleashed, Fight";
             ((System.ComponentModel.ISupportInitialize)(this.picBowWater2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

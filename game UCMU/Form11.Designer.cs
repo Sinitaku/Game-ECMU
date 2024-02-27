@@ -53,9 +53,11 @@
             // picBowFire2
             // 
             this.picBowFire2.BackColor = System.Drawing.Color.Snow;
+            this.picBowFire2.Image = global::game_UCMU.Properties.Resources.firemonster;
             this.picBowFire2.Location = new System.Drawing.Point(211, 67);
             this.picBowFire2.Name = "picBowFire2";
             this.picBowFire2.Size = new System.Drawing.Size(391, 194);
+            this.picBowFire2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBowFire2.TabIndex = 29;
             this.picBowFire2.TabStop = false;
             // 
@@ -153,7 +155,7 @@
             this.Controls.Add(this.lblGameName10);
             this.Controls.Add(this.picBowFire2);
             this.Name = "Form11";
-            this.Text = "Fight11";
+            this.Text = "Elemental Conquest: Monsters Unleashed, Fight";
             ((System.ComponentModel.ISupportInitialize)(this.picBowFire2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

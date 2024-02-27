@@ -28,7 +28,7 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet;
+                form25.pisteet = pisteet + 30;
                 form25.ShowDialog();
             }
         }
@@ -42,7 +42,7 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet;
+                form25.pisteet = pisteet + 30;
                 form25.ShowDialog();
             }
         }
@@ -56,7 +56,7 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet;
+                form25.pisteet = pisteet + 30;
                 form25.ShowDialog();
             }
         }
@@ -70,7 +70,7 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet;
+                form25.pisteet = pisteet + 30;
                 form25.ShowDialog();
             }
         }

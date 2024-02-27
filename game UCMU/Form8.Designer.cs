@@ -43,9 +43,11 @@
             // picBoxFire
             // 
             this.picBoxFire.BackColor = System.Drawing.Color.Snow;
+            this.picBoxFire.Image = global::game_UCMU.Properties.Resources.firemonster;
             this.picBoxFire.Location = new System.Drawing.Point(211, 67);
             this.picBoxFire.Name = "picBoxFire";
             this.picBoxFire.Size = new System.Drawing.Size(391, 194);
+            this.picBoxFire.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxFire.TabIndex = 0;
             this.picBoxFire.TabStop = false;
             // 
@@ -153,7 +155,7 @@
             this.Controls.Add(this.lblGameName10);
             this.Controls.Add(this.picBoxFire);
             this.Name = "Form8";
-            this.Text = "Fight8";
+            this.Text = "Elemental Conquest: Monsters Unleashed, Fight";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxFire)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

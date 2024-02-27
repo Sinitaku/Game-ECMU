@@ -15,6 +15,8 @@ namespace game_UCMU
         public Form1()
         {
             InitializeComponent();
+            Thread thread = new Thread(CloseAfterTime);
+            thread.Start();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -36,7 +38,43 @@ namespace game_UCMU
         {
             Form2 form2 = new Form2();
             form2.Show();
-            //this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private const int maxTime = 200;
+
+        private void CloseAfterTime()
+        {
+            int elapsedTime = 0;
+            
+            while (true)
+            {
+                Thread.Sleep(1000); //odota yksi sekunti
+
+                elapsedTime++;
+
+                if (elapsedTime >= maxTime)
+                {
+                    CloseForm();
+                    break;
+                }
+            }
+        }
+        private void CloseForm()
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(CloseForm));
+            }
+            else
+            {
+                MessageBox.Show("Programm is turning off.");
+                Close();
+            }
+        }
+        
     }
 }

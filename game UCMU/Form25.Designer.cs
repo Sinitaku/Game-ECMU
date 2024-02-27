@@ -89,7 +89,7 @@
             this.Controls.Add(this.lblWinText);
             this.Controls.Add(this.lblGameName);
             this.Name = "Form25";
-            this.Text = "Form25";
+            this.Text = "Elemental Conquest: Monsters Unleashed, Win";
             this.ResumeLayout(false);
             this.PerformLayout();
 

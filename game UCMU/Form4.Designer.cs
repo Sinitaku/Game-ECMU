@@ -104,7 +104,7 @@
             this.Controls.Add(this.btn30pt);
             this.Controls.Add(this.ldlGameName4);
             this.Name = "Form4";
-            this.Text = "Points4";
+            this.Text = "Elemental Conquest: Monsters Unleashed, Points for monster";
             this.ResumeLayout(false);
 
         }

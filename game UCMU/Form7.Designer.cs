@@ -103,7 +103,7 @@
             this.Controls.Add(this.lblCredits);
             this.Controls.Add(this.lblGameName8);
             this.Name = "Form7";
-            this.Text = "Credits7";
+            this.Text = "Elemental Conquest: Monsters Unleashed, Credits";
             this.ResumeLayout(false);
             this.PerformLayout();
 

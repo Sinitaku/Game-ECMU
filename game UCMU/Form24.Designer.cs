@@ -142,7 +142,8 @@
             this.Controls.Add(this.btnTeamElTha4);
             this.Controls.Add(this.btnTeamSeDo4);
             this.Name = "Form24";
-            this.Text = "Choose characters24";
+            this.RightToLeftLayout = true;
+            this.Text = "Elemental Conquest: Monsters Unleashed, Choose the team";
             this.ResumeLayout(false);
             this.PerformLayout();
 
