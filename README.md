@@ -1,4 +1,6 @@
 <h1>Elemental Conquest: Monsters Unleashed</h1>
-<p>Elemental Conquest is very simple fighting game. You use mouse to choose between given options. Your goal is to defeat the monsters and save the city.</p>
+<p>Elemental Conquest or ECMU is very simple fighting game. The idea is to defeat monsters and save the city.</p>
+<p>Gameplay is very simple. You use your mouse to click buttons and that's it.</p>
+
 <p>Flowchart</p>
 <img src="ECMUVuokaavio" alt="Flowchart">
