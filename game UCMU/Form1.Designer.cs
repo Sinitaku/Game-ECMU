@@ -41,9 +41,10 @@
             this.lblGameName.AutoSize = true;
             this.lblGameName.BackColor = System.Drawing.Color.Snow;
             this.lblGameName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGameName.Location = new System.Drawing.Point(196, 29);
+            this.lblGameName.Location = new System.Drawing.Point(294, 45);
+            this.lblGameName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGameName.Name = "lblGameName";
-            this.lblGameName.Size = new System.Drawing.Size(415, 25);
+            this.lblGameName.Size = new System.Drawing.Size(614, 37);
             this.lblGameName.TabIndex = 1;
             this.lblGameName.Text = "Elemental Conquest: Monsters Unleashed";
             this.lblGameName.Click += new System.EventHandler(this.lblGameName_Click);
@@ -53,18 +54,20 @@
             this.lblInfoStrt.AutoSize = true;
             this.lblInfoStrt.BackColor = System.Drawing.Color.Snow;
             this.lblInfoStrt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfoStrt.Location = new System.Drawing.Point(36, 94);
+            this.lblInfoStrt.Location = new System.Drawing.Point(54, 145);
+            this.lblInfoStrt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInfoStrt.Name = "lblInfoStrt";
-            this.lblInfoStrt.Size = new System.Drawing.Size(742, 140);
+            this.lblInfoStrt.Size = new System.Drawing.Size(1105, 203);
             this.lblInfoStrt.TabIndex = 2;
             this.lblInfoStrt.Text = resources.GetString("lblInfoStrt.Text");
             // 
             // btnNext
             // 
             this.btnNext.BackColor = System.Drawing.Color.Snow;
-            this.btnNext.Location = new System.Drawing.Point(637, 381);
+            this.btnNext.Location = new System.Drawing.Point(956, 586);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(119, 38);
+            this.btnNext.Size = new System.Drawing.Size(178, 58);
             this.btnNext.TabIndex = 3;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = false;
@@ -73,9 +76,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::game_UCMU.Properties.Resources.elementkuva;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 263);
+            this.pictureBox1.Location = new System.Drawing.Point(60, 405);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(419, 156);
+            this.pictureBox1.Size = new System.Drawing.Size(628, 240);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -83,15 +87,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.lblInfoStrt);
             this.Controls.Add(this.lblGameName);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Elemental Conquest: Monsters Unleashed, Welcome";
             this.Load += new System.EventHandler(this.Form1_Load);
