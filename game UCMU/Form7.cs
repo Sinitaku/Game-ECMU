@@ -19,7 +19,7 @@ namespace game_UCMU
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

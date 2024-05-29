@@ -20,17 +20,9 @@ namespace game_UCMU
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (pisteet < 200)
-            {
-                Form3 form3 = new Form3();
-                form3.ShowDialog();
-                
-            }
-            else
-            {
-                Form7 form7 = new Form7();
-                form7.ShowDialog();
-            }
+            
+           Form7 form7 = new Form7();
+           form7.ShowDialog();
         }
     }
 }

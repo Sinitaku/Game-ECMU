@@ -12,7 +12,6 @@ namespace game_UCMU
 {
     public partial class Form22 : Form
     {
-        public int pisteet { get; set; }
         public Form22()
         {
             InitializeComponent();
@@ -27,7 +26,6 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet + 100;
                 form25.ShowDialog();
             }
         }
@@ -41,7 +39,6 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet + 100;
                 form25.ShowDialog();
             }
         }
@@ -55,7 +52,6 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet + 100;
                 form25.ShowDialog();
             }
         }
@@ -69,7 +65,6 @@ namespace game_UCMU
             else
             {
                 Form25 form25 = new Form25();
-                form25.pisteet = pisteet + 100;
                 form25.ShowDialog();
             }
         }

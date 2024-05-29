@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -17,6 +18,35 @@ namespace game_UCMU
             InitializeComponent();
             Thread thread = new Thread(CloseAfterTime);
             thread.Start();
+        }
+        private void CloseAfterTime()
+        {
+            int elapsedTime = 0;
+
+            while (true)
+            {
+                Thread.Sleep(1000); //odota yksi sekunti
+
+                elapsedTime++;
+
+                if (elapsedTime >= maxTime)
+                {
+                    CloseForm();
+                    break;
+                }
+            }
+        }
+        private void CloseForm()
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(CloseForm));
+            }
+            else
+            {
+                MessageBox.Show("Programm is turning off.");
+                Close();
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -46,35 +76,7 @@ namespace game_UCMU
         }
         private const int maxTime = 200;
 
-        private void CloseAfterTime()
-        {
-            int elapsedTime = 0;
-            
-            while (true)
-            {
-                Thread.Sleep(1000); //odota yksi sekunti
 
-                elapsedTime++;
-
-                if (elapsedTime >= maxTime)
-                {
-                    CloseForm();
-                    break;
-                }
-            }
-        }
-        private void CloseForm()
-        {
-            if (InvokeRequired)
-            {
-                Invoke(new Action(CloseForm));
-            }
-            else
-            {
-                MessageBox.Show("Programm is turning off.");
-                Close();
-            }
-        }
         
     }
 }
