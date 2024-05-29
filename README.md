@@ -28,7 +28,10 @@
 <p>This is the final image. By clicking "Close", the game closes but you still have to stop it from running by pressing red button in Visual Studio.</p><br>
 
 <img src="ECMUVuokaavio.png" alt="Flowchart">
-<p>Here is the flowchart</p>
+<p>Here is the flowchart</p><br><br>
+
+<h3>How can I improve my game?</h3>
+<p>I could add more functionality and visual elements. I could make the game more challenging and include more events. Additionally, I could make the game longer and more complex.</p>
 
 
 
